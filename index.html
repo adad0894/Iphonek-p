@@ -141,7 +141,7 @@ footer{background:#000;border-top:1px solid #171717;padding:38px 20px;color:#777
      </div>
      <div>
       <label for="email">E-post *</label>
-      <input id="email" type="email" required placeholder="din@email.se">
+      <input id="email" type="email" required placeholder="adam.hassan.stocholm@gmail.com">
      </div>
      <div class="full">
       <label class="check"><input id="consent" type="checkbox" required> <span>Jag godkänner att iPhoneKöp kontaktar mig via e-post angående min förfrågan.</span></label>
@@ -178,12 +178,12 @@ footer{background:#000;border-top:1px solid #171717;padding:38px 20px;color:#777
 
 
 <script>
-const RECIPIENT_EMAIL="DIN-EMAIL@EXEMPEL.SE";
+const RECIPIENT_EMAIL="adam.hassan.stocholm@gmail.com";
 document.getElementById("quoteForm").addEventListener("submit",function(e){
  e.preventDefault();
  const v=id=>document.getElementById(id)?.value||"Ej angivet";
  const files=document.getElementById("photos").files.length;
- if(RECIPIENT_EMAIL==="DIN-EMAIL@EXEMPEL.SE"){
+ if(RECIPIENT_EMAIL==="adam.hassan.stocholm@gmail.com"){
    alert("Nästan klart! Lägg in din riktiga e-postadress i RECIPIENT_EMAIL innan du publicerar hemsidan.");
    return;
  }
